@@ -1,4 +1,13 @@
 package com.maxiflexy.dreamdevs.dao.interfaces;
 
-public class MemberDAO {
+import com.maxiflexy.dreamdevs.model.Member;
+import java.util.List;
+
+public interface MemberDAO {
+
+    void addMember(Member member);
+    void updateMember(Member member);
+    void deleteMember(int memberId);
+    List<Member> getAllMembers();
+    Member getMemberById(int memberId);
 }
