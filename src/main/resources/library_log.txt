@@ -1,0 +1,8 @@
+2025-03-14 13:20:50 - Error retrieving all books: ERROR: relation "books" does not exist
+  Position: 15
+2025-03-14 13:20:50 - Error retrieving all members: ERROR: relation "members" does not exist
+  Position: 15
+2025-03-14 13:20:50 - Error retrieving active borrowing records: ERROR: relation "borrowing_records" does not exist
+  Position: 64
+2025-03-14 13:20:50 - Library Management System started
+2025-03-14 13:33:56 - Library Management System started
